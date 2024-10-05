@@ -1,4 +1,4 @@
-A Simple ToDO app in react and node.js and MySQL database.
+# A Simple ToDO app in react and node.js and MySQL database.
 
 To access the app: git clone "https://{copy the link under button code}
 
@@ -11,12 +11,13 @@ To access the app: git clone "https://{copy the link under button code}
 
 2. Navigate to todo-app-backend
 
-    - setup environment 
+    - setup environment
+```
         'host': localhost
         'user': {setup your MySQL user}
         'password': {setup the MySQL user password}
         'database': todo_db
-    
+``` 
         start the node.js server: `node server.js`
 
 3. Navigate to todo-front
@@ -27,4 +28,3 @@ To access the app: git clone "https://{copy the link under button code}
     default: http://localhost:3000/
 
 5. Add, Check, Delete listed items.
-# todo-list
